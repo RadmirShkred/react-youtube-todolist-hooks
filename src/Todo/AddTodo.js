@@ -15,7 +15,6 @@ function useInputValue(defaultValue = '') {
 }
 
 function AddTodo({onCreate}) {
-    const [value, setValue] = useState('');
     const input = useInputValue('');
 
     function submitHandler(e) {
